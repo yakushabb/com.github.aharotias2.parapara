@@ -20,4 +20,4 @@ modules:
     sources:
       - type: archive
         url: https://github.com/aharotias2/parapara/archive/refs/tags/v3.2.8.tar.gz
-        sha256: 336ad3945ea5068d3102c04538eb5f5e3b1232404dbd07a3d8bb8dfeab8b4761
+        sha256: 653595dd4f0f8a1140080efcbca20116ec89e544076b0cd589e55c7d3134877b
