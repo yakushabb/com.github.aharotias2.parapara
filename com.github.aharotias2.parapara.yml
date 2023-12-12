@@ -19,5 +19,5 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://github.com/aharotias2/parapara/archive/refs/tags/v3.2.9.tar.gz
-        sha256: a8f523068977455f6ac7aa1ed9d880282fc6e97a7c4ef1e0a63c95679d6f3e37
+        url: https://github.com/aharotias2/parapara/archive/refs/tags/v3.2.11.tar.gz
+        sha256: 8f55ad14ac24200ef9ac9e98168b5eceee2e84435f3a69e903273fdf989b69bf
