@@ -1,6 +1,6 @@
 app-id: com.github.aharotias2.parapara
 runtime: org.gnome.Platform
-runtime-version: '45'
+runtime-version: '47'
 sdk: org.gnome.Sdk
 command: com.github.aharotias2.parapara
 finish-args:
