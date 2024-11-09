@@ -21,3 +21,8 @@ modules:
       - type: archive
         url: https://github.com/aharotias2/parapara/archive/refs/tags/v3.2.11.tar.gz
         sha256: 8f55ad14ac24200ef9ac9e98168b5eceee2e84435f3a69e903273fdf989b69bf
+    post-install:
+      # workaround for non-png-icon-in-hicolor-size-folder lint error
+      - mkdir -p /app/share/icons/hicolor/scalable/apps
+      - mv /app/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.svg /app/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
+      - find /app/share/icons/hicolor -type f -not -path "*scalable*" -not -path "*actions*" -name "*.svg" -delete
